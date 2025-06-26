@@ -17,7 +17,7 @@
 ## 🔐 功能特性 | Features
 
 - ✅ **加密模式**：将桌面上的所有文件（包括子目录）重命名为哈希值，并删除原始路径结构。
-- 🔄 **解密模式**：基于加密时生成的 `.recovery` 文件，完全复原文件路径和文件名。
+- 🔄 **解密模式**：基于加密时生成的 `recovery` 文件，完全复原文件路径和文件名。
 - 🛡️ **调试保险机制**（SAFE）：在 `ON` 模式下仅操作 `Fake Desktop` 文件夹，确保安全测试。
 - 🧠 **恢复容错机制**：如果恢复失败，会在桌面上生成 `Recovery Hint.txt`，提示用户手动处理。
 
@@ -86,5 +86,3 @@ This program is for educational purposes **only**. Please do **not** use it for 
 ## 📝 License
 
 This project is released under the **MIT License**.
-
-```
